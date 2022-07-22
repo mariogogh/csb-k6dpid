@@ -1,0 +1,110 @@
+.link-only:link {
+    display: inline-block;
+    color: var(--main-90);
+    border-bottom: 1px solid var(--hero-text);
+    ;
+}
+
+.link-only {
+    color: var(--main-90);
+}
+
+.link-only:active {
+    display: inline-block;
+    color: var(--main-90);
+    border-bottom: 1px solid var(--hero-text);
+}
+
+.link-only:hover {
+    display: inline-block;
+    opacity: 100%;
+    text-decoration: underline 1px solid var(--main-100);
+}
+
+.link-only.button:hover {
+    display: inline-block;
+    opacity: 60%;
+    text-decoration: underline 0px solid var(--main-w-100);
+}
+
+.link-only.a:hover {
+    display: inline-block;
+    opacity: 60%;
+    text-decoration: underline 0px solid var(--main-w-100);
+}
+
+
+/* unvisited link */
+
+.featured a:link {
+    text-decoration: underline;
+    text-decoration: 0.03em color #ff0000;
+    text-decoration-thickness: 1px;
+}
+
+a:link {
+    text-decoration: none;
+    opacity: 85%;
+}
+
+
+/* visited link */
+
+a:visited {
+    color: #ffffff7c;
+    opacity: 70%;
+}
+
+
+/* mouse over link */
+
+a:hover {
+    color: #ffffff;
+    opacity: 90%;
+    text-decoration: none;
+}
+
+
+/* selected link */
+
+a:active {
+    color: #ffffff;
+    opacity: 85%;
+}
+
+.section-intro a {
+    color: #000000;
+    opacity: 85%;
+}
+
+.box a {
+    font-size: 20px;
+    color: #000000;
+}
+
+.button .white:hover {
+    color: #ffffff;
+    opacity: 85%;
+}
+
+.white:hover {
+    color: #ffffff;
+    opacity: 85%;
+}
+
+.button .white:hover {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+@media (max-width: 600px) {
+    br p {
+        display: none;
+    }
+    .link-only:link {
+        font-size: 16px;
+    }
+    .link-left {
+        padding-left: 24px;
+    }
+}

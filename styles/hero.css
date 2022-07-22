@@ -1,0 +1,249 @@
+.section-random {
+    width: 100vw;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-random {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.random-img {
+    object-fit: cover;
+    margin: 0;
+    opacity: 90%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.hero {
+    width: 50%;
+    height: 90%;
+    padding-top: 3%;
+    transition: transform 0.9s ease;
+    opacity: 1;
+}
+
+.main-hero {
+    width: 50%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    transition: 8.2s ease-in-out;
+    transition: transform 8.9s ease;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+}
+
+.main-hero-img2 {
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    transition: 8.2s ease-in-out;
+    transition: transform 8.9s ease;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    z-index: 2000;
+}
+
+.main-hero2 {
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    opacity: 1;
+    align-content: flex-start;
+    object-fit: cover;
+    background-size: cover;
+    top: 190px;
+    position: relative;
+    transition-delay: 950ms;
+}
+
+.full-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.full-image-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-size: cover;
+    transition: opacity 0.2s ease-in-out;
+    transition: transform 0.9s ease;
+    opacity: 1;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+.full-image-img-about {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-size: cover;
+    transition: opacity 0.2s ease-in-out;
+    transition: transform 0.9s ease;
+    opacity: 1;
+    padding-right: 24px;
+    padding-left: 0px;
+}
+
+.full-image-img-about-L {
+    padding-left: 24px;
+}
+
+.box-R-image p {
+    padding: 32px;
+}
+
+.new-hero {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.left {
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 100%;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 100%;
+}
+
+.hero .card :first-child {
+    padding-right: 32px;
+}
+
+.img-right {
+    width: 50%;
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 124px;
+    padding-bottom: 0px;
+    transition: opacity 0.2s ease-in-out;
+    transition: transform 0.9s ease;
+    opacity: 1;
+    scale: (1.9);
+}
+
+.img-right img {
+    width: 100%;
+    height: 90%;
+    background-size: cover;
+}
+
+@media (max-width: 600px) {
+    .section-random {
+        width: 100vw;
+        height: 50vh;
+    }
+    .box-random {
+        width: 100%;
+        height: 50%;
+        display: flex;
+    }
+    .random-img {
+        object-fit: cover;
+        padding: 26px;
+        background-size: cover;
+    }
+    .main-hero {
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .main-hero-img {
+        width: 100%;
+        height: 600px;
+        background-size: cover;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .section-hero-2 {
+        width: 100%;
+        height: 50%;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: right;
+        text-align: left;
+        flex-direction: column;
+    }
+    .img-right {
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        text-align: left;
+        flex-direction: column;
+    }
+    .img-right img {
+        width: 50%;
+        height: 100%;
+        background-size: cover;
+    }
+    .full-image-img-about {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background-size: cover;
+        transition: opacity 0.2s ease-in-out;
+        transition: transform 0.9s ease;
+        opacity: 1;
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+    .full-image-img-about p {
+        padding-left: 24px;
+    }
+    .full-image-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background-size: cover;
+        transition: opacity 0.2s ease-in-out;
+        transition: transform 0.9s ease;
+        opacity: 1;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
